@@ -1,0 +1,14 @@
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] IncrementalCompile -----------[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncrementalCompile.incrementalCompile[0m
+[0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 147 products, 20 sources, 6 libraries[0m
+[0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/src/test/scala/workshop/mandelbrot/PixelSolverMultiCoreTester.scala, ${BASE}/src/test/scala/workshop/waveplayer/AxiLite4WavePlayer.scala, ${BASE}/src/test/scala/workshop/common/CocotbRunner.scala, ${BASE}/src/test/scala/workshop/simStreamJoinFork/SimStreamJoinFork.scala, ${BASE}/src/test/scala/workshop/timer/TimerTester.scala, ${BASE}/src/test/scala/workshop/pwm/ApbPwmTester.scala, ${BASE}/src/test/scala/workshop/mandelbrot/PixelSolverChecker.scala, ${BASE}/src/test/scala/workshop/mandelbrot/PixelSolverTester.scala, ${BASE}/src/test/scala/workshop/common/WorkshopSimConfig.scala, ${BASE}/src/test/scala/workshop/simCounter/SimCounterTester.scala, ${BASE}/src/test/scala/workshop/apb3decoder/Apb3DecoderTester.scala, ${BASE}/src/test/scala/workshop/timer/Apb3TimerTester.scala, ${BASE}/src/test/scala/workshop/uart/UartCtrlRxTester.scala, ${BASE}/src/test/scala/workshop/prime/PrimeTester.scala, ${BASE}/src/test/scala/workshop/function/FunctionUnitTester.scala, ${BASE}/src/test/scala/workshop/blackboxAndClock/BlackBoxAndClockTester.scala, ${BASE}/src/test/scala/workshop/counter/CounterTester.scala, ${BASE}/src/test/scala/workshop/stream/StreamUnitTester.scala, ${BASE}/src/test/scala/workshop/common/Apb3Driver.scala, ${BASE}/src/test/scala/workshop/udp/UdpAppSelfTester.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set(NamesChange(workshop.udp.UdpApp$,ModifiedNames(changes = UsedName(flushRx,[Default]), UsedName(flush,[Default])))))[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe workshop.udp.UdpApp$ has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(flushRx,[Default]), UsedName(flush,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0m[0mdebug[0m] [0m[0mFiles invalidated by inheriting from (external) workshop.udp.UdpApp$: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mNow invalidating by inheritance (internally).[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting direct dependencies of all classes transitively invalidated by inheritance.[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting classes that directly depend on (external) workshop.udp.UdpApp$.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of workshop.udp.UdpAppSelfTester. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNo changes[0m

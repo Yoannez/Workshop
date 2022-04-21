@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1650499513" />
+    <testcase name="test1" classname="Apb3DecoderTester" file="/home/qichao/Workshop/src/test/python/workshop/apb3decoder/Apb3DecoderTester.py" lineno="12" time="0.030009746551513672" sim_time_ns="100.001" ratio_time="3332.284057392548" />
+  </testsuite>
+</testsuites>

@@ -1,0 +1,28 @@
+[0m[[0m[0mdebug[0m] [0m[0mjavaOptions: Vector()[0m
+[0m[[0m[0mdebug[0m] [0m[0mForking tests - parallelism = false[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreate a single-thread test executor[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunner for org.scalatest.tools.Framework produced 1 initial tasks for 1 tests.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(workshop.udp.UdpAppSelfTester, sbt.ForkMain$SubclassFingerscan@5b1d2887, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mUdpAppSelfTester:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- test *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.io.FileNotFoundException: ./src/test/python/workshop/udp/selftested/results.xml (No such file or directory)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.io.FileInputStream.open0(Native Method)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.io.FileInputStream.open(FileInputStream.java:195)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.io.FileInputStream.<init>(FileInputStream.java:138)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.io.Source$.fromFile(Source.scala:91)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.io.Source$.fromFile(Source.scala:76)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.io.Source$.fromFile(Source.scala:54)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at workshop.common.CocotbRunner$.getCocotbPass(CocotbRunner.scala:42)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at workshop.common.CocotbRunner$.apply(CocotbRunner.scala:14)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at workshop.udp.UdpAppSelfTester$$anonfun$1.apply$mcV$sp(UdpAppSelfTester.scala:14)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at workshop.udp.UdpAppSelfTester$$anonfun$1.apply(UdpAppSelfTester.scala:9)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 1 events.[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 3 seconds, 274 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 0, failed 1, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 1 TEST FAILED ***[0m[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	workshop.udp.UdpAppSelfTester[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtestOnly[0m) sbt.TestsFailedException: Tests unsuccessful[0m

@@ -1,0 +1,12 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly *.FunctionUnitTester, Some(89015b7c-3aee-4b07-8fbe-67b6f1f116ae), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to /home/qichao/SpinalWorkshop/target/scala-2.11/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/qichao/SpinalWorkshop/src/main/scala/workshop/prime/Prime.scala:16:74: ';' expected but ')' found.[0m
+[0m[[0m[31merror[0m] [0m[0m    val primeHits = valuePrimeInRange.map(primeValue => n === primeValue))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed Apr 7, 2022 6:29:54 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
